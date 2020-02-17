@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aprimorar estética avançada</title>
+    <meta name="description" content="">
+
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="Leonardo Valverde - Orçamento de sites"/>
+    <meta property="og:description" content="Faça seu site pessoal com foco na qualidade e tecnologias recentes. Entre em contato, vai ser um prazer falar com você. De Belo Horizonte para todo Brasil"/>
+    <meta property="og:url" content="website"/>
+    <meta property="og:image" content="website"/>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="grid-4">
+                <img src="img/logo.png" alt="Aprimorar Estética Avançada" class="logo">
+            </a>
+            <nav class="grid-12 header_menu">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="sobre.html" class="menu_ativo">Sobre</a></li>
+                    <li><a href="procedimentos.html">Procedimentos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="interna_sobre">
+        <div class="container fadeInDown" data-anime="400">
+            <h1>Sobre</h1>
+            <p>Conheça um pouco sobre nossa Biomédica</p>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="portfolio">
+        <h2 class="subtitulo">Dra. Paloma Moraes</h2>
+        <div class="paloma1 grid-16">
+        <img src="img/paloma-1.jpg" alt="paloma biomédica" class="grid-8">
+        <p class="grid-7">Formada pela FAMINAS- BH em 2017 no curso de Biomedicina e especializada em estética avançada. 
+            <br>
+            É uma profissional com vasta experiência, tendo atuado anteriormente em duas clínicas  de grande porte bem conceituadas. 
+            <br>
+            Perante a experiência e conhecimento adquirido decidiu abrir o próprio negócio, visando o conforto de seus pacientes.</p> 
+        </div>
+
+        <div class="paloma2 grid-16">
+        <img src="img/paloma-2.jpg" alt="paloma biomédica" class="grid-8" class="margin40">
+        <div class="grid-7">
+        <p>Além de se especializar em estética avançada, Paloma conta com vários cursos complementares. Como:</p>
+        <ul>
+            <li>PRP</li>
+            <li>Microagulhamento</li>
+            <li>Peeling químico avançado</li>
+            <li>Toxina botulínica e preenchimentos avançado</li>
+            <li>Skinglow pele de porcelana</li>
+            <li>Peeling italiano</li>
+            <li>Fios de PDO.</li>
+        </ul>
+        </div>
+        <a name="contato"></a>   
+        </div>
+        <div class="grid-16 paloma3">
+        <img src="img/paloma-3.jpg" alt="paloma biomédica" class="grid-8">
+        <p class="grid-7">Além de realizar vários treinamentos, a clínica Aprimorar possui equipamentos conceituados no mercado. Frequentemente Paloma participa de congressos 
+            na área visando aperfeiçoar cada vez mais sua técnica, se manter atualizada e atender os clientes da maneira mais eficaz possível.
+        </p>
+        </div>
+    </div>
+    </section>
+
+    <section class="contato">
+        <div class="container padding40">
+        <h2 class="subtitulo">GOSTARIA DE SABER MAIS?</h2>
+        <p class="centraliza">Entre em contato conosco e nossa Biomédica Esteta irá te responder!</p>
+    
+        <form id="form_ctt" method="POST" action="./enviar-sendgrid.php" class="grid-8 form formphp">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" required>
+            
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" required>
+           
+            <label for="telefone">Telefone</label>
+            <input type="tel" name="telefone" id="telefone">
+            
+            <label class="nao-aparece">Se você não é um robô, deixe em branco</label>
+            <input type="text" class="nao-aparece" name="leaveblank">
+    
+            <label class="nao-aparece">Se você não é um robô, não mude esse campo</label>
+            <input type="text" class="nao-aparece" name="dontchange" value="http://">
+    
+            <label for="mensagem">Mensagem</label>
+            <textarea name="mensagem" id="mensagem" required></textarea>
+    
+            <button type="submit" class="btn btn-preto" id="enviar" name="enviar">Enviar</button>
+        </form>
+        <div class="grid-1 consome1"><p> a </p></div>
+        <div class="dados_ctt grid-7">
+            <h3>TELEFONE</h3>
+            <span>(31) 9 86453935</span>
+            <h3>WHAT'S APP</h3>
+            <span>Para iniciar uma conversa basta clicar no botão <br>
+                <a href="https://api.whatsapp.com/send?phone=5531986453935"><img src="img/wpp.png" alt="what's app"></a></span>
+            <h3>ENDEREÇO</h3>
+            <span>Rua Marrocos 1308, Céu Azul</span>
+            <h3>FUNCIONAMENTO</h3>
+            <span>Segunda a Sexta de 08:00 às 18:00<br>
+                Sábados de 08:00 às 12:00</span>
+    
+        </div>
+    </div>
+    </section>
+        
+    <section class="quebra">
+        <blockquote data-anime="800" class="quote-externo fadeInDown">
+            <p>"Você sonha, nós realizamos!"</p>
+            <cite>Aprimorar Estética Avançada</cite>
+        </blockquote>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div class="container">
+
+                <div class="grid-8 footer_tecnologias">
+                    <h3>Dra. Paloma S. Moraes</h3>
+                    <p>Graduada em Biomedicina e Especializada em Estética. <br>
+                        A melhor amiga do seu corpo desde 2017.</p>
+                </div>
+
+                <div class="grid-4 footer_contato">
+                    <h3>contato</h3>
+                    <ul>
+                        <li>- (31) 9 86453935</li>
+                        <li>- Rua Marrocos 1308, Céu Azul</li>
+                    </ul>
+                </div>
+
+                <div class="grid-4 footer_redes">
+                    <h3>INSTAGRAM</h3>
+                    <ul>
+                        <li><a href="http://instagram.com/aprimorar.estetica" target="_blank"><img src="img/instagram.png" alt="Isntagram"></a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="copy">
+            <div class="container">
+                <p class="grid-8">Aprimorar Estética Avançada - Todos os direitos reservados</p>
+                <p class="grid-8"><a href="https://www.leovalverde.com.br" target="_blank">Densenvolvido por www.leovalverde.com.br</a></p>
+            </div>
+        </div>
+
+    </footer>
+    <script src="js/simple-slide.js"></script>
+    <script src="js/simple-anime.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>

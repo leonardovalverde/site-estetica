@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aprimorar estética avançada</title>
+    <meta name="description" content="">
+
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="Leonardo Valverde - Orçamento de sites"/>
+    <meta property="og:description" content="Faça seu site pessoal com foco na qualidade e tecnologias recentes. Entre em contato, vai ser um prazer falar com você. De Belo Horizonte para todo Brasil"/>
+    <meta property="og:url" content="website"/>
+    <meta property="og:image" content="website"/>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="grid-4">
+                <img src="img/logo.png" alt="Aprimorar Estética Avançada" class="logo">
+            </a>
+            <nav class="grid-12 header_menu">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="procedimentos.html" class="menu_ativo">Procedimentos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="interna_procedimentos">
+        <div class="container fadeInDown" data-anime="400">
+            <h1>Procedimentos</h1>
+            <p>Conheça alguns de nossos principais procedimentos</p>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="texto-procedimento">
+        <h2 class="subtitulo">Procedimentos</h2>
+        <h3 class="destaque">Nesta sessão você pode conferir um pouco sobre os nossos principais procedimentos.</h3>
+        <h3 class="titulo-procedimento grid-16">Aplicação de Microvasos</h3>
+        <p class="grid-16">Esse procedimento consiste na aplicação de uma substância esclerosante no interior desses microvasos, a qual irá agir levando a uma contração do 
+        mesmo, fazendo com que se feche e não haja mais passagem sanguínea. A substância é posteriormente metabolizada pelo organismo. Há inúmeras 
+        substâncias esclerosantes que podem ser utilizadas, como por exemplo a glicose hipertônica. Os resultados são efetivos e por ser um fármaco 
+        biocompatível não causa reações alérgicas na pele nem proporciona risco de choque anafilático ou úlceras isquêmicas.</p>
+        
+        <h3 class="titulo-procedimento grid-16">Lipo Enzimática</h3>
+        <p class="grid-16">Conhecida como o  melhor tratamento para gordura localizada e emagrecimento, a Lipo Enzimática é muito procurada por trazer resultados rápidos e 
+            surpreendentes. O tratamento consiste na combinação de enzimas customizadas para cada pessoa, levando em consideração peso, idade entre outras 
+            características, por isso é necessária uma avaliação minuciosa para que a melhor indicação seja realizada e traga os resultados desejados.</p>
+        
+        <h3 class="titulo-procedimento grid-16">Criolipólise</h3>
+        <p class="grid-16">Criolipólise é um procedimento não invasivo que tem como objetivo reduzir a gordura localizada, isto é, aquela que se concentra em certas áreas do 
+            corpo e da qual é muito difícil de se livrar mesmo com uma dieta adequada e a prática de exercícios, como o famoso “pneuzinho”.
+            A técnica envolve a colocação de uma máquina que funciona com o uso de uma ponteira similar a um aspirador, que suga a gordura superficial através 
+            da criação do vácuo e a submete a baixas temperaturas</p>
+
+        <h3 class="titulo-procedimento grid-16">Botox Global</h3>
+        <p class="grid-16">Rejuvenesça com a aplicação de Botox. O procedimento é realizado através de microinjeções em pontos estratégicos do rosto. A toxina botulínica age 
+        na musculatura de algumas regiões pré-escolhidas, revitalizando o seu rosto e eliminando rugas e marcas de expressão.</p>
+   
+        <h3 class="titulo-procedimento grid-16">Preenchimento Facial</h3>
+        <p class="grid-16">O preenchimento facial é um dos procedimento mais utilizados para a estética. Feito com ácido hialurônico ou toxina botulínica, ajuda a suavizar rugas 
+        e marcas de expressão em regiões como a testa, ao redor dos olhos (os "pés de galinha") e no bigode chinês, e é usado também para dar volume.</p>
+
+        </div>
+    </section>
+    <a name="contato"></a>   
+</section>
+
+<section class="contato">
+    <div class="container padding40">
+    <h2 class="subtitulo">GOSTARIA DE SABER TODOS OS PROCEDIMENTOS?</h2>
+    <p class="centraliza">Entre em contato conosco e nossa Biomédica Esteta irá te responder!</p>
+
+    <form id="form_ctt" method="POST" action="./enviar-sendgrid.php" class="grid-8 form formphp">
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome" required>
+        
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email" required>
+       
+        <label for="telefone">Telefone</label>
+        <input type="tel" name="telefone" id="telefone">
+        
+        <label class="nao-aparece">Se você não é um robô, deixe em branco</label>
+        <input type="text" class="nao-aparece" name="leaveblank">
+
+        <label class="nao-aparece">Se você não é um robô, não mude esse campo</label>
+        <input type="text" class="nao-aparece" name="dontchange" value="http://">
+
+        <label for="mensagem">Mensagem</label>
+        <textarea name="mensagem" id="mensagem" required></textarea>
+
+        <button type="submit" class="btn btn-preto" id="enviar" name="enviar">Enviar</button>
+    </form>
+    <div class="grid-1 consome1"><p> a </p></div>
+    <div class="dados_ctt grid-7">
+        <h3>TELEFONE</h3>
+        <span>(31) 9 86453935</span>
+        <h3>WHAT'S APP</h3>
+        <span>Para iniciar uma conversa basta clicar no botão <br>
+            <a href="https://api.whatsapp.com/send?phone=5531986453935"><img src="img/wpp.png" alt="what's app"></a></span>
+        <h3>ENDEREÇO</h3>
+        <span>Rua Marrocos 1308, Céu Azul</span>
+        <h3>FUNCIONAMENTO</h3>
+        <span>Segunda a Sexta de 08:00 às 18:00<br>
+            Sábados de 08:00 às 12:00</span>
+
+    </div>
+</div>
+</section>
+
+    
+    <section class="quebra">
+        <blockquote data-anime="800" class="quote-externo fadeInDown">
+            <p>"Você sonha, nós realizamos!"</p>
+            <cite>Aprimorar Estética Avançada</cite>
+        </blockquote>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div class="container">
+
+                <div class="grid-8 footer_tecnologias">
+                    <h3>Dra. Paloma S. Moraes</h3>
+                    <p>Graduada em Biomedicina e Especializada em Estética. <br>
+                        A melhor amiga do seu corpo desde 2017.</p>
+                </div>
+
+                <div class="grid-4 footer_contato">
+                    <h3>contato</h3>
+                    <ul>
+                        <li>- (31) 9 86453935</li>
+                        <li>- Rua Marrocos 1308, Céu Azul</li>
+                    </ul>
+                </div>
+
+                <div class="grid-4 footer_redes">
+                    <h3>INSTAGRAM</h3>
+                    <ul>
+                        <li><a href="http://instagram.com/aprimorar.estetica" target="_blank"><img src="img/instagram.png" alt="Instagram"></a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="copy">
+            <div class="container">
+                <p class="grid-8">Aprimorar Estética Avançada - Todos os direitos reservados</p>
+                <p class="grid-8"><a href="https://www.leovalverde.com.br" target="_blank">Densenvolvido por www.leovalverde.com.br</a></p>
+            </div>
+        </div>
+
+    </footer>
+    <script src="js/simple-slide.js"></script>
+    <script src="js/simple-anime.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
